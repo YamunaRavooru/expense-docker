@@ -16,7 +16,7 @@ services:
    networks:
    - expense
    container_name: frontend
-   pots:
+   ports:
    - 80:80
    depends_on: 
    - backend
